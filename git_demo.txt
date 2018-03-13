@@ -1,0 +1,55 @@
+void ServoDriver_NCV7708_Init(void)
+{
+
+////// pin 17: EN Enable. Input high wakes the IC up from a sleep mode.
+
+}
+
+void ServoDriver_NCV7708_Config(void)
+{
+
+		/* pin 1: OUTL5 Output Low Side 5
+		   pin 2: OUTH5 Output High Side 5.
+		   pin 3: OUTH4 Output High Side 4.
+		   pin 4: OUTL4 Output Low Side 4.
+		   pin 11: OUTL3 Output Low Side 3.
+		   pin 12: OUTH3 Output High Side 3.
+	       pin 13: OUTH2 Output High Side 2.
+		   pin 14: OUTL2 Output Low Side 2.
+		   pin 15: OUTH1 Output High Side 1.
+		   pin 16: OUTL1 Output Low Side 1.
+
+		   pin 24: CSB Chip Select Bar. Active low serial port operation.
+		   
+pin 27: OUTL6 Output Low Side 6.
+pin 28: OUTH6 Output High Side 6.
+
+void ServoMotor1_OnOffState(MotorIndex,****,bool);
+
+
+*/
+}
+
+void ServoDriver_NCV7708_ReadWrite(void)
+{
+
+}
+
+void ServoDriver_NCV7708_ForwardDir(void)
+{
+}
+
+void ServoDriver_NCV7708_ReverseDir(void)
+{
+}
+
+void ServoDriver_NCV7708_FaultDetection(void)
+{
+}
+
+
+
+
+
+
+
